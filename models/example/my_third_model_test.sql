@@ -2,6 +2,6 @@
 -- Use the `ref` function to select from other models
 
 select *
-, 'Taylor' as 'test_3'
+, 'Taylor' as test_3
 from {{ ref('my_first_dbt_model') }}
 where id = 1
