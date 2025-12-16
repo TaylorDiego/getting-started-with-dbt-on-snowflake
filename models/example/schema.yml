@@ -18,3 +18,11 @@ models:
             tests:
                 - unique
                 - not_null
+
+    - name: est_3
+      description: "A starter dbt model"
+      columns:
+          - name: id
+            description: "The primary key for this table"
+            tests:
+                - unique
